@@ -1,0 +1,16 @@
+<main class="main_wrp"  [ngClass]="{'show_menu': router.url != '/login' && router.url != '/home/search'}">
+  <section class="page_wrp" role="main"  [ngClass]="{'pt-0': router.url == '/login'}">
+    <!-- Pages -->
+    <router-outlet></router-outlet>
+  </section>
+
+</main>
+<div *ngIf="loaderService.isLoading | async" class="loading-indicator">
+  <mat-spinner [diameter]="50" color="primary"></mat-spinner>
+</div>
+
+
+
+
+
+

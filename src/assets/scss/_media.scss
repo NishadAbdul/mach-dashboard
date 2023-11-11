@@ -1,0 +1,137 @@
+@media only screen and (min-width: 1500px) and (max-width: 1800px) {
+
+    .login_page_wrp  {
+        .banner_wrp {
+            width: 65%;
+        }
+        .login_wrp {
+            width: 35%;
+        }
+        .login_form {
+            width: 100%;
+        }
+    }
+   
+}
+@media only screen and (max-width: 1366px) {
+    .login_form {
+        width: 100%;
+    }
+}
+@media only screen and (min-width: 1366px) and (max-width: 1500px) {
+    .login_page_wrp  {
+        .banner_wrp {
+            width: 60%;
+        }
+        .login_wrp {
+            width: 40%;
+        }
+    }
+   
+    
+}
+@media only screen and (min-width: 1024px) and (max-width: 1365px) {
+    .login_page_wrp  {
+        .banner_wrp {
+            width: 55%;
+        }
+        .login_wrp {
+            width: 45%;
+        }    
+    }
+  
+}
+@media only screen and (max-width: 1023px) {
+    .banner_wrp {
+        display: none;
+    }
+}
+@media only screen and (min-width: 900px) and (max-width: 1023px) {    
+    .login_page_wrp  {
+        .login_wrp {
+            width: 50%;
+            margin: 0 auto;
+        }   
+    }
+   
+}
+@media only screen and (min-width: 760px) and (max-width: 900px) {    
+    .login_page_wrp  {
+        .login_wrp {
+            width: 70%;
+            margin: 0 auto;
+        }
+    }
+   
+}
+@media only screen and (min-width: 680px) and (max-width: 760px) {    
+
+    .login_page_wrp  {
+        .login_wrp {
+            width: 80%;
+            margin: 0 auto;
+        }
+    }
+    
+}
+@media only screen and (max-width: 680px) {
+    .login_page_wrp  {
+        .login_wrp {
+            width: 100%;
+            margin: 0 auto;
+        }
+    }
+}
+@media only screen and (max-width: 500px) {
+    .login_page_wrp  {
+        .login_wrp {
+            padding: 30px;
+        }
+    }
+}
+@media (max-width: 1199px) {
+    .header_wrp .login {
+        display: none;
+    }
+    .main_wrp {
+        &.show_menu {
+            padding-left: 0;
+        }
+    }
+    .search_wrp {
+        .search_cnt {
+            width: 80%;
+        }
+
+    }
+    .menu_btn {
+        display: inline-flex !important;
+    }
+    .nav_wrp {
+        position: absolute;
+        z-index: 3;
+        height: 100%;
+    }
+    .sub_menu_wrp {
+        left: 80px !important;
+    }
+    .content_wrp {
+        .file_name {
+            display: inline-block;    
+            
+            p{
+                margin-bottom: 15px;
+            }
+        }
+
+    }
+}
+@media (max-width: 1365px) {
+    .sub_menu_wrp {
+        position: absolute;
+        left: 0;
+    }
+    .content_wrp {
+        padding-left: 20px;
+    }
+}
