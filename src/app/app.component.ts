@@ -78,7 +78,7 @@ export class AppComponent {
 
   setTitle() {
     // get product/organization name for setting title from config API
-    const instititutionName = this.config.instititutionName ? this.config.instititutionName : 'DAMS';
+    const instititutionName = this.config.instititutionName ? this.config.instititutionName : 'MACH';
     document.title = instititutionName ? instititutionName : '';
   }
 }
